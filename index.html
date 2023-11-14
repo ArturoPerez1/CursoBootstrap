@@ -23,6 +23,13 @@
 
     <!--styles CSS-->
     <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Navbar-->
@@ -65,15 +72,42 @@
       </div>
     </nav>
     <!--Hero section-->
-    <section
-      class="d-flex flex-column justify-content-center  aling-items-center aling-items-stretch"
-    >
+    <section class="hero align-items-stretch">
       <div
-        class="hero-principal d-flex flex-column justify-content-center aling-items-center"
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
       >
-        <img src="image/desarrollador-ejemplo.svg" alt="Foto de perfil" />
+        <img
+          class="hero-imagen-desarrollador rounded-circle"
+          src="image/desarrollador-ejemplo.svg"
+          alt="Foto Perfil"
+        />
         <h1>Hola, soy Arturo Pérez</h1>
         <h2>Soy estudiante de ingeniería informática</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="image/hero-inferior.svg"
+          alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React."
+        />
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Arturo Pérez</h2>
+        <p class="seccion-texto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus risus
+          ante, finibus sed commodo vel, blandit sed metus. Suspendisse pharetra
+          ex eu arcu efficitur, vel convallis nunc ullamcorper. Duis pretium sed
+          risus sed elementum. Aenean et arcu sagittis, imperdiet risus sit
+          amet, semper nibh. Fusce diam metus, blandit in condimentum non,
+          ullamcorper vel risus. Sed rutrum ligula eu nisl malesuada pharetra.
+          Nullam egestas scelerisque mi sed ultrices. Aliquam erat volutpat.
+          Vivamus dictum in urna eu tincidunt. Phasellus neque purus, rhoncus a
+          vestibulum in, pulvinar eu eros. Proin vulputate gravida condimentum.
+        </p>
       </div>
     </section>
     <!--Bootstrap CDN-->
